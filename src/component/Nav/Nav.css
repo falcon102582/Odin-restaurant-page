@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+    gap: 500px;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 40px;
+    width: 100vw;
+}
+
+header span{
+    cursor: pointer;
+    width: auto;
+}
+
+header span:hover{
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+}
